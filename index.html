@@ -5,113 +5,81 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
-
 <body>
-<div class="header">
-	<a href=""><div class="logo-wrapper">
-		<div class="logo">
-			<img src="assets/image/logo.png" alt="logo">
-			<div class="logo-text">Уличный университет</div>
-		</div>
+	<div class="header-wrapper">
+		<header class="header">
+			<div class="logo">
+				<h1 class="logo__text">Уличный университет</h1>
+			</div>
+			<div class="slider">
+				<button class="slider__button button-left" type="button" name="slide-left-btn"></button>
+				<img class="slider__img" src="assets/image/background.png" alt="background">
+				<button class="slider__button button-right" type="button" name="slide-right-btn"></button>
+			</div>
+		</header>
 	</div>
-	</a>
-	<div class="slider">
-		<div class="slider-left">
-			<a href=""><img src="assets/image/left.png" alt="slide-left"></a>
-		</div>
-		<div class="slider-right">
-			<a href=""><img src="assets/image/right.png" alt="slide-right"></a>
-		</div>
+	<div class="navigation-wrapper">
+		<nav class="navigation">
+			<a class="navigation__link" href="#">Уличный Университет</a>
+			<a class="navigation__link" href="#">Gypstore</a>
+			<a class="navigation__link" href="#">События</a>
+			<a class="navigation__link" href="#">Арт-среда</a>
+			<a class="navigation__link" href="#">Слова</a>
+		</nav>
 	</div>
-</div>
-	<div class="head-menu-wrapper">
-		<div class="menu-wrapper-inner">
-			<div class="head-menu">
-				<a href="" class="head-menu-navigation">Уличный университет</a>
-			</div>
-			<div class="head-menu">
-				<a href="" class="head-menu-navigation">Gypstore</a>
-			</div>
-			<div class="head-menu">
-				<a href="" class="head-menu-navigation">События</a></div>
-			<div class="head-menu">
-				<a href="" class="head-menu-navigation">Арт-среда</a>
-			</div>
-			<div class="head-menu">
-				<a href="" class="head-menu-navigation">Слова</a>
-			</div>
-		</div>
-	</div>
-<div class="content">
-	<div class="content-menu-wrapper">
-		<div class="menu-gray">
-			<div>Меню</div>
-		</div>
-		<div class="menu">
-			<div class="menu-inner">
-				<div>
-					<a href="" class="menu-inner-text">Первый пункт</a>
+	<main class="main">
+		<section class="sider__menu sider">
+			<h3 class="sider__title">Меню</h3>
+			<ul class="sider__list slider__list--uppercase">
+				<li class="sider__item">
+					<a href="#" class="sider__link">Первый пункт</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Второй пункт</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Третий пункт</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Четвертый пункт</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Пятый пункт</a>
+				</li>
+			</ul>
+		</section>
+		<div class="events">
+			<div class="events__slider">
+				<div class="events__slider-buttons">
+					<button class="events__slider-button" type="button" name="button">Предыдущее</button>
+					<button class="events__slider-button" type="button" name="button">Следующее</button>
 				</div>
-				<div>
-					<a href="" class="menu-inner-text">Второй пункт</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Третий пункт</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Четвертый пункт</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Пятый пункт</a>
-				</div>
+				<time class="events__date" datetime="2011-11-21">21.11.2011</time>
+				<h2 class="events__title">LOWRIDE</h2>
+				<p class="events__description">FURFUR поговорил с популяризатором культуры лоурайдеров в России —
+				создателем питерской мастерской Long Island Customs</p>
 			</div>
 		</div>
-	</div>
-	<div class="content-center">
-		<div class="content-center-slider">
-			<div>
-				<a href="" class="content-center-slider--buttons">Предыдущее</a>
-			</div>
-			<div>
-				<a href="" class="content-center-slider--buttons">Следующее</a>
-			</div>
-		</div>
-		<div class="date">21.11.2011</div>
-		<div class="grow1"></div>
-		<div class="grow1"></div>
-		<div class="lowride">Lowride</div>
-		<div class="grow1"></div>
-		<div class="line"></div>
-		<div class="grow1"></div>
-		<div class="text">FURFUR поговорил с популяризатором культуры лоурайдеров в России —
-		создателем питерской мастерской Long Island Customs</div>
- 		<div class="grow1"></div>
-	</div>
-	<div class="content-menu-wrapper">
-		<div class="menu-gray">
-			<div>Профиль</div>
-		</div>
-		<div class="menu">
-			<div class="menu-inner">
-				<div>
-					<a href="" class="menu-inner-text">Мой профиль</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Пригласить друга</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Настройки</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Создать блог</a>
-				</div>
-				<div>
-					<a href="" class="menu-inner-text">Выход</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-	
+		<section class="side-profile sider">
+			<h3 class="sider__title">Профиль</h3>
+			<ul class="sider__list">
+				<li class="sider__item">
+					<a href="#" class="sider__link">Мой профиль</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Пригласить друга</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Настройки</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Создать блог</a>
+				</li>
+				<li class="sider__item">
+					<a href="#" class="sider__link">Выход</a>
+				</li>
+			</ul>
+		</section>
+	</main>
 </body>
 </html>
